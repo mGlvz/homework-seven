@@ -1,0 +1,586 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.site-container {
+  max-width: 1100px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(../css/fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: Proxima;
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+nav {
+  position: fixed;
+  height: 90px;
+  width: 60%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid;
+  border-color: black;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  color: white;
+  font-family: GillSans;
+  background-image: url(../images/logo/logo-black.png);
+}
+nav .links {
+  height: 42px;
+  width: 550px;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+nav .links .line {
+  color: #79ADDC;
+}
+nav .links a {
+  color: black;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-family: GillSans;
+  font-size: 15px;
+}
+
+.offers {
+  height: 1000px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.offers .offers-container {
+  height: 708px;
+  width: 881px;
+  margin-top: 20px;
+}
+.offers .offers-container .offers-title {
+  height: 40px;
+  width: 250px;
+  font-size: 30px;
+  font-family: GillSans;
+  border-bottom: 2px solid;
+}
+.offers .offers-container .offer1 {
+  height: 287px;
+  width: 555px;
+  margin-bottom: 60px;
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.offers .offers-container .offer1 .offer-image1 {
+  height: 287px;
+  width: 199px;
+  background-image: url(../images/special-offer-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.offers .offers-container .offer1 .offer-content {
+  height: 287px;
+  width: 355px;
+}
+.offers .offers-container .offer1 .offer-content .offer-title {
+  height: 40px;
+  width: 300px;
+  font-size: 30px;
+  font-family: GillSans;
+  border-bottom: 2px solid;
+  margin-left: 20px;
+}
+.offers .offers-container .offer1 .offer-content .offer-text {
+  height: 185px;
+  width: 355px;
+}
+.offers .offers-container .offer1 .offer-content .offer-text p {
+  width: 290px;
+  font-size: 16px;
+  font-family: GillSans;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.offers .offers-container .offer1 .offer-content .offer-button {
+  height: 40px;
+  width: 133px;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.offers .offers-container .offer1 .offer-content .offer-button .button-text {
+  font-size: 15px;
+  font-family: GillSans;
+  color: white;
+}
+.offers .offers-container .offer2 {
+  height: 287px;
+  width: 555px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.offers .offers-container .offer2 .offer-image2 {
+  height: 287px;
+  width: 199px;
+  background-image: url(../images/special-offer-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.offers .offers-container .offer2 .offer-content {
+  height: 287px;
+  width: 355px;
+}
+.offers .offers-container .offer2 .offer-content .offer-title {
+  height: 40px;
+  width: 310px;
+  font-size: 30px;
+  font-family: GillSans;
+  border-bottom: 2px solid;
+  margin-left: 20px;
+}
+.offers .offers-container .offer2 .offer-content .offer-text {
+  height: 185px;
+  width: 355px;
+}
+.offers .offers-container .offer2 .offer-content .offer-text p {
+  width: 290px;
+  font-size: 16px;
+  font-family: GillSans;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.offers .offers-container .offer2 .offer-content .offer-button {
+  height: 40px;
+  width: 133px;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.offers .offers-container .offer2 .offer-content .offer-button .button-text {
+  font-size: 15px;
+  font-family: GillSans;
+  color: white;
+}
+
+.blog {
+  height: 1250px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.blog .blog-container {
+  height: 950px;
+  width: 881px;
+  margin-top: 20px;
+}
+.blog .blog-container .blog-title {
+  height: 40px;
+  width: 100px;
+  font-size: 30px;
+  font-family: GillSans;
+  border-bottom: 2px solid;
+}
+.blog .blog-container .blog-post {
+  height: 395px;
+  width: 881px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.blog .blog-container .blog-post .date-container {
+  height: 373px;
+  width: 81px;
+}
+.blog .blog-container .blog-post .date-container .date-box {
+  height: 60px;
+  width: 60px;
+  background-color: #79ADDC;
+}
+.blog .blog-container .blog-post .date-container .date-box .date-day {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: GillSans;
+  font-size: 22px;
+  padding-top: 10px;
+}
+.blog .blog-container .blog-post .date-container .date-box .date-month {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-family: GillSans;
+}
+.blog .blog-container .blog-post .content-container {
+  height: 373px;
+  width: 800px;
+}
+.blog .blog-container .blog-post .content-container .post-image {
+  height: 259px;
+  width: 800px;
+  background-image: url(../images/blog.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.blog .blog-container .blog-post .content-container .post-title {
+  height: 55px;
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.blog .blog-container .blog-post .content-container .post-title p {
+  font-size: 15px;
+  font-family: GillSans;
+}
+.blog .blog-container .blog-post .content-container .post-content {
+  height: 70px;
+  width: 800px;
+}
+.blog .blog-container .blog-post .content-container .post-content p {
+  width: 380px;
+  font-size: 13px;
+  font-family: GillSans;
+  color: #79ADDC;
+}
+.blog .blog-container .blog-post2 {
+  height: 395px;
+  width: 881px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+.blog .blog-container .blog-post2 .date-container {
+  height: 373px;
+  width: 81px;
+}
+.blog .blog-container .blog-post2 .date-container .date-box {
+  height: 60px;
+  width: 60px;
+  background-color: #79ADDC;
+}
+.blog .blog-container .blog-post2 .date-container .date-box .date-day {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: GillSans;
+  font-size: 22px;
+  padding-top: 10px;
+}
+.blog .blog-container .blog-post2 .date-container .date-box .date-month {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-family: GillSans;
+}
+.blog .blog-container .blog-post2 .content-container {
+  height: 373px;
+  width: 800px;
+}
+.blog .blog-container .blog-post2 .content-container .post-image {
+  height: 259px;
+  width: 800px;
+  background-image: url(../images/blog.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.blog .blog-container .blog-post2 .content-container .post-title {
+  height: 55px;
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.blog .blog-container .blog-post2 .content-container .post-title p {
+  font-size: 15px;
+  font-family: GillSans;
+}
+.blog .blog-container .blog-post2 .content-container .post-content {
+  height: 70px;
+  width: 800px;
+}
+.blog .blog-container .blog-post2 .content-container .post-content p {
+  width: 380px;
+  font-size: 13px;
+  font-family: GillSans;
+  color: #79ADDC;
+}
+
+.contact {
+  height: 1000px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contact .contact-container {
+  height: 650px;
+  width: 881px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.contact .contact-container .contact-title {
+  height: 40px;
+  width: 200px;
+  font-size: 30px;
+  font-family: GillSans;
+  border-bottom: 2px solid;
+  margin-bottom: 30px;
+}
+.contact .contact-container .contact-box {
+  height: 650px;
+  width: 881px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact .contact-container .contact-box .map-box {
+  height: 650px;
+  width: 400px;
+}
+.contact .contact-container .contact-box .map-box .map-image {
+  height: 442px;
+  width: 400px;
+  background-image: url(../images/map.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.contact .contact-container .contact-box .map-box .address-box {
+  width: 400px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.contact .contact-container .contact-box .map-box .address-box p {
+  font-size: 18px;
+  font-family: GillSans;
+  width: 250px;
+}
+.contact .contact-container .contact-box .input-box {
+  height: 650px;
+  width: 481px;
+}
+.contact .contact-container .contact-box .input-box .input1 {
+  padding-bottom: 18px;
+}
+.contact .contact-container .contact-box .input-box .input1 label {
+  font-size: 18px;
+  font-family: GillSans;
+}
+.contact .contact-container .contact-box .input-box .input1 input {
+  width: 431px;
+  height: 60px;
+  border: 1px solid #79ADDC;
+  margin-left: 50px;
+}
+.contact .contact-container .contact-box .input-box .input2 {
+  padding-bottom: 18px;
+}
+.contact .contact-container .contact-box .input-box .input2 label {
+  font-size: 18px;
+  font-family: GillSans;
+}
+.contact .contact-container .contact-box .input-box .input2 input {
+  width: 431px;
+  height: 60px;
+  border: 1px solid #79ADDC;
+  margin-left: 50px;
+}
+.contact .contact-container .contact-box .input-box .input3 {
+  padding-bottom: 18px;
+}
+.contact .contact-container .contact-box .input-box .input3 label {
+  font-size: 18px;
+  font-family: GillSans;
+}
+.contact .contact-container .contact-box .input-box .input3 input {
+  width: 431px;
+  height: 60px;
+  border: 1px solid #79ADDC;
+  margin-left: 50px;
+}
+.contact .contact-container .contact-box .input-box .input4 {
+  padding-bottom: 18px;
+}
+.contact .contact-container .contact-box .input-box .input4 label {
+  font-size: 18px;
+  font-family: GillSans;
+}
+.contact .contact-container .contact-box .input-box .input4 input {
+  width: 431px;
+  height: 210px;
+  border: 1px solid #79ADDC;
+  margin-left: 50px;
+}
+.contact .contact-container .contact-box .input-box .message-button {
+  height: 50px;
+  width: 167px;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 50px;
+}
+.contact .contact-container .contact-box .input-box .message-button .send-message {
+  color: white;
+  font-family: GillSans;
+  font-size: 16px;
+}
+
+footer {
+  height: 100px;
+  width: 1280;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+footer .logo {
+  width: 92px;
+  height: 42px;
+  color: white;
+  font-family: GillSans;
+  background-image: url(../images/logo/logo-white.png);
+}
+footer .copyright {
+  color: white;
+  font-size: 12px;
+  font-family: GillSans;
+}
+footer .social-icons {
+  height: 42px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: aqua;
+  background-image: url(../images/icons.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
