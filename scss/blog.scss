@@ -161,11 +161,16 @@
     }
 }
 
-@media only screen and (max-width: 700px){
-    .blog-container{
-        display: block;
-        .post-image{
-            width: 400px;
-        }
+@media screen and (max-width: 940px){
+    .blog-container > * {
+        margin-left: 15px;
+    }
+
+    .blog .blog-container{
+        width:100% !important;
+    }
+
+    .post-image{
+        width: 50% !important;
     }
 }

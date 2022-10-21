@@ -139,14 +139,12 @@
     }
 }
 
-@media only screen and (max-width: 700px){
-    .offer-title{
-        padding-left: 20px;
+@media screen and (max-width: 940px){
+    .offers-container > * {
+        margin-left: 15px;
     }
-    .offer1{
-        padding-left: 20px;
-    }
-    .offer2{
-        padding-left: 20px;
+
+    .offers .offers-container{
+        width:100% !important;
     }
 }

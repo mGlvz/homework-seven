@@ -41,32 +41,38 @@ nav{
             }
         }
 }
+.menu{
+    display: none;
+}
 
-@media only screen and (max-width: 760px){
+@media screen and (max-width: 1060px){
+    .logo{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 780px){
     nav{
-    width: 300px;
-    background-color: rgba(0,0,0,.5);
-        .logo{
-            width: 20%
-            // background-color: aqua;
-            background-image: url(../images/logo/logo-white.png);
-        }
         .links{
-            height: 42px;
-            // width: 80%;
-            width: 100px;
-            color:white;
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-            // background-color: blue;
-            // .line{
-            //     font-size: 10px;
-            // }
-            a {
-                font-size: 8px;
-            }
+            display: none;
         }
+    }
+
+    .menu{
+        height: 100%;
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .line{
+        height: 3px;
+        width: 75%;
+        background-color: black;
+        margin: 3px 0 3px 0;
     }
     
 }
